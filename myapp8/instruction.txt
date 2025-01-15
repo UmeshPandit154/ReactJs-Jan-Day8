@@ -1,0 +1,37 @@
+ReactJs 
+
+SPA
+
+npx create-react-app projectname
+
+Simle Structure
+
+
+Basic Structure
+public/index.html (View)
+src/index.js      (Logic)
+package.json      (Dependency)
+
+
+How ReactJs Project Load/Start
+
+npm start
+     -> react-script start
+
+           -> src/index.js
+                 -> public/index.html
+
+1. WebPack Bundler
+      Webpack Bundler
+      All Assets bundler into a single file
+
+      a1.js  33Kb
+      a2.js  33Kb  ------------> bundler.js 50Kb
+      a3.js  33Kb
+2. Babel Compiler
+                
+           Babel Js Compiler
+           
+           New JS Code  (ES6) ----->Babel Js Compiler ----> Old Js Code
+
+let a =()=>{} -----> Babel Js Compiler ->function a(){}
